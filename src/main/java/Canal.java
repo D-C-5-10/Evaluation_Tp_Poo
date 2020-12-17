@@ -21,10 +21,7 @@ public class Canal implements Comparable<Canal> {
         if(list.size() == 0){
          throw new ActionNonAutoriseeException("action n'est pas autorisé");
         }
-        list2 = mapping_role_habilitations.values();
-        for (int i = 0; i < list2.size(); i++) {
-
-        }
+       
 
     }
 
